@@ -27,18 +27,18 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
+        <li>punjab collage</li>
         <li>Umt</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "life Goals",
+    id: "Life Goals",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Prefect Developer</li>
+        <li>Coder</li>
       </ul>
     ),
   },
@@ -61,12 +61,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
+             I have experience
+            working with JavaScript, React, next.js, html, css, 
+              and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am excited to work with others to create amazing applications.My journey into coding has just begun, and I m fueled by a desire to continuously improve and innovate. My long-term goal is to become a proficient developer, adept at crafting robust and user-friendly software solutions that address real-world problems.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
